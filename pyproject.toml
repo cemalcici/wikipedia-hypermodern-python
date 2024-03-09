@@ -1,0 +1,19 @@
+# pyproject.toml
+[tool.poetry]
+name = "wikipedia-hypermodern-python"
+version = "0.1.0"
+description = "A Hypermodern Python project that fetches random information from Wikipedia."
+authors = ["cemalcici <iecemalcici@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/cemalcici/wikipedia-hypermodern-python"
+repository = "https://github.com/cemalcici/wikipedia-hypermodern-python"
+keywords = ["hypermodern-python", "wikipedia-api"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
